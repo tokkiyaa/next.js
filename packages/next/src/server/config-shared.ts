@@ -195,6 +195,10 @@ export interface ReactCompilerOptions {
 }
 
 export interface ExperimentalConfig {
+  /**
+   * A target memory limit for turbo, in bytes.
+   */
+  turboMemoryLimit?: number
   flyingShuttle?: boolean
   prerenderEarlyExit?: boolean
   linkNoTouchStart?: boolean
